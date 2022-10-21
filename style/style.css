@@ -30,7 +30,7 @@ li {
   padding-bottom: 32px; /*espaçamento inferior*/
   padding-top: 32px;/*espaçamento superior*/
   height: 60px;
-  background-color: #D8AC9C;
+  background-color: #5C2E7E; /*nav*/
 }
 
 .header-menu nav {
@@ -49,20 +49,41 @@ li {
 
 /*Pegando os itens com tags de dentro da nossa lista*/
 .lista-menu li a {
-    color:#fff;
+    color: #fff; /* link nav*/
     font-size: 18px;
     text-decoration: inherit;
 }
 
 li a:hover { /*mudar cor ao passar mouse*/
-    color:#9b7263;
+    color:#4C6793;
     transition: color 0.3s;
+}
+
+/* HERO */
+
+
+.nome-completo {
+    font-size: 36px;
+    color: #5C2E7E;
+    font-weight: 700; /*espessura*/
+    height: 45px;
+}
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px; /*Espaçamento entre as linhas*/
+    color: #6d6d6d;
+}
+
+.profissao {
+    color: #4C6793;
+    height: 60px; /*altura*/
 }
 
 .principal {
     height: 100vh;
     display: flex;
-    background-color: #F4EEED;
+    background-color: #fbf3ff; /*cor hero*/
 }
 
 .container {
@@ -84,7 +105,7 @@ li a:hover { /*mudar cor ao passar mouse*/
 
 .topico-principal {
     font-size: 36px;
-    color: #999B84;
+    color: #5C2E7E; /*formação e portfolio*/
 }
 
 .lista-item {
@@ -98,26 +119,21 @@ li a:hover { /*mudar cor ao passar mouse*/
 .lista-titulo {
     margin-bottom: 5px; /*espaçamento entre os items da nossa lista*/
     font-size: 22px;
-    color: #898b66;
+    color: #4C6793; /*titulo formação e portfolio*/
     font-weight: 700;
-}
-
-.lista-local {
-    font-size: 18px;
-    color: #444444;
 }
 
 .lista-descricao {
     font-size: 18px;
     margin-top: 5px;
     line-height: 20px; /*Espaçamento entre as linhas*/
-    color: #444444;
+    color: #6d6d6d;
     font-weight: 300;
 }
 
 .wrapper-portfolio {
     /*como se fosse o pacote do nosso portfolio*/
-    background-color: #F4EEED;
+    background-color: #fbf3ff;
     display: flex;
     flex-direction: column;
 }
@@ -129,21 +145,15 @@ li a:hover { /*mudar cor ao passar mouse*/
     flex-direction: column;
 }
 
-.subtitulo-lista {
-    font-size: 18px;
-    color: #444444;
-    font-weight: 500;
-}
-
 .footer {
-    background-color: #D8AC9C;
-    height: 30vh;
+    background-color: #5C2E7E;
+    height: 15vh;
     display: flex;
     align-items: center;
 }
 
 footer li a:hover { /*mudar cor ao passar mouse*/
-    color:#9b7263;
+    color:#4C6793;
     transition: color 0.3s;
 }
 
@@ -158,21 +168,4 @@ footer li a:hover { /*mudar cor ao passar mouse*/
 
 .lista-footer li a {
     color: inherit; /*tirar azul de link*/
-}
-
-.nome-completo {
-    font-size: 36px;
-    color: #999B84;
-    font-weight: 700; /*espessura*/
-    height: 45px;
-}
-
-.texto-sobre {
-    font-size: 20px;
-    line-height: 32px; /*Espaçamento entre as linhas*/
-}
-
-.profissao {
-    color: #727461;
-    height: 60px; /*altura*/
 }
