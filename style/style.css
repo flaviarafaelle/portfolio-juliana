@@ -61,6 +61,9 @@ li a:hover { /*mudar cor ao passar mouse*/
 
 /* HERO */
 
+.foto-perfil {
+    height: 220px;
+}
 
 .nome-completo {
     font-size: 36px;
